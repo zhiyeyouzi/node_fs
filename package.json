@@ -9,6 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "createfile": "node createfile",
+    "createhello": "node hello && node submit",
     "download": "npm install && node autopush",
     "autoDownload": "npm install && node autopush && node submit",
     "autopush": "node submit"
