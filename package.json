@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "auto": "node autopush && git add . && git commit -m 'upadate' && git push"
+    "auto": "npm install && node autopush && git add . && git commit -m 'upadate' && git push"
   },
   "repository": {
     "type": "git",
