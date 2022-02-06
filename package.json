@@ -8,9 +8,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "createfile": "node createfile",
     "download": "npm install && node autopush",
-    "autoDownload": "npm install && node autopush && git add . && git commit -m 'upadate' && git push"
+    "autoDownload": "npm install && node autopush && git add . && git commit -m 'upadate' && git push",
+    "autopush": "git add . && git commit -m 'upadate' && git push"
   },
   "repository": {
     "type": "git",
