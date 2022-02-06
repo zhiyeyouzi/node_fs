@@ -10,7 +10,7 @@
   "scripts": {
     "createfile": "node createfile",
     "download": "npm install && node autopush",
-    "autoDownload": "npm install && node autopush && git add . && git commit -m 'upadate' && git push",
+    "autoDownload": "npm install && node autopush && node submit",
     "autopush": "node submit"
   },
   "repository": {
