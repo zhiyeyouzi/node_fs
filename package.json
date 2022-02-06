@@ -1,0 +1,24 @@
+{
+  "name": "file_push",
+  "version": "1.0.0",
+  "description": "文件推送",
+  "main": "autopush.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "auto": "node autopush && git add . && git commit -m 'upadate' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiyeyouzi/node_fs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhiyeyouzi/node_fs/issues"
+  },
+  "homepage": "https://github.com/zhiyeyouzi/node_fs#readme"
+}
