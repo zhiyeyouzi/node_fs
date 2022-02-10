@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-// 创建文件夹目录
+// 创建指定文件夹目录
 const dirCache = {};
 const filepath = "src/views";
 function mkdir(filepath) {
