@@ -6,7 +6,9 @@
   "dependencies": {
     "request": "^2.88.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "axios": "^0.25.0"
+  },
   "scripts": {
     "createfile": "node createfile",
     "createhello": "node hello && node submit",
